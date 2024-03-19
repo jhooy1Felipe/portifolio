@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="assets/LojaWeb/style.css">
+</head>
+<body>
+    <center>
+        <form class="Form2">
+            <div>
+                <div><label class="nome">Digite seu Email</label></div>
+                <input type="email" name="email" id="email" placeholder="seu@email.com" onchange="validateFields()"/>
+            <div>
+                <div><label class="nome">Digite sua Senha</label></div>
+                <input type="password" name="password" id="password" placeholder="Senha" onchange="validateFields()"/>
+            </div>
+            <div>
+                <div><label class="nome">Repetir sua senha</label></div>
+                <input type="password" name="password" id="password" placeholder="Repetir Senha" onchange="validateFields()"/>
+            </div>
+            <div>
+                <button type="button" class="solid" id="login-button" disabled="true" onclick="validateFields()">Cadastrar</button>
+            </div>
+            <div>
+                <button type="button" class="outline" onclick="login()">Logar</button>
+            </div>
+            <div>
+                <button type="button" class="outline" onclick="inicio()">Pagina Inicial</button>
+            </div>
+        </form>
+    </center>
+    <script src="LojaWeb.js"></script>
+</body>
+</html>

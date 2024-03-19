@@ -1,0 +1,82 @@
+@media  (min-width:992px) {  
+    .header-container{
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    
+    .nav-container{
+        flex-direction:row;
+    }
+
+    .nav-container > a{
+            font-size: 1.5em;
+    }
+
+    .title{
+        font-size: 3em;
+    }
+  
+    .inicio{
+        display:flex;
+        flex-direction:row;
+    }
+
+    .img-perfil-inicio{
+        width:110%;
+        padding:20px;
+    }
+    
+    .sobre-content{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+    }
+    
+    
+    .title-inicio{
+        font-size:3.5em;
+    }
+    .sub-title-inicio{
+        font-size: 2.8em;
+    }
+    
+    .img-inicio{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .text-inicio{
+        max-width:600px;
+    }
+    
+    .sub-title{
+        color: var(--color-sub-title);
+        font-size: 2em
+    }
+    
+    .paragrafo-descricao{
+        max-width:800px;
+    }
+    
+    
+    .box-skill{
+        width:800px;
+
+    }
+
+    .box-projeto{
+        width:800px;
+    }
+
+    .box-contato{
+        width:800px;
+    }
+    
+
+    /*FAZ PARTE DA FUNCIONALIDADE DOS SCROLL*/
+    main > section{
+        visibility: hidden;
+    }
+}
+

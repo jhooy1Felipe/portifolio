@@ -1,0 +1,270 @@
+:root{
+    --color-main: #0455BF;
+    --color-bg:#FBFAFA;
+
+
+    --color-sub-title:#0455BF;
+    --color-third-title:#263140;
+    --color-paragrafo: #828282;
+    --color-nav-text:#36465C;
+
+    --font-size-sub-title:26px;
+    --font-size-third-title:23px;
+    --font-size-paragrafo:20px;
+}
+
+body{
+    min-height:100vh;
+    background-color:rgba(204, 204, 204, 0.171);
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.Form2 {
+    width: 550px;
+    height: 550px;
+    background-color: #363636;
+    border-radius: 20px;
+    margin-top: 80px;
+    color:#fff;
+  }
+  
+.flex{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.wrapper{
+    margin:50px;
+}
+
+.header-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom:10px;
+}
+
+.nav-container{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+}
+
+.nav-container > a:hover{
+    border-bottom: 2px solid var(--color-main);
+}
+
+.title{
+    color: var(--color-main);
+}
+
+
+.link-nav{
+    color: var(--color-nav-text);
+}
+
+.link-nav:hover{
+    color: #263140;
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+
+
+.inicio{
+    display:flex;
+    flex-direction:column;
+}
+
+
+.title-inicio{
+    font-size: 2em;
+    color: var(--color-third-title);
+}
+
+.sub-title-inicio{
+    font-size: 1.5em;
+    color:#263140bb;
+}
+
+.img-inicio{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.img-perfil-inicio{
+    width:0px;  
+}
+
+
+.sub-title{
+color: var(--color-sub-title);
+font-size: var(--font-size-sub-title);
+}
+
+.img-perfil-sobre{
+    width:50%;
+}
+
+.paragrafo-descricao{
+    color: var(--color-paragrafo);
+    font-size: var(--font-size-paragrafo);
+}
+
+main > h3{
+    color:var(--color-third-title);
+    font-size: var(--font-size-third-title);
+}
+
+
+
+.lista-skills{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.box-skill{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    align-items:center;
+    justify-content: space-around;
+
+    background-color: #fff;
+    border-radius:12px;
+    border-bottom:5px solid var(--color-main);
+
+    padding:15px;
+    width:100%;
+    font-weight:bold;
+    
+    
+    cursor:pointer;
+}
+
+.tag-skill{
+    background-color:#0455bf3f;
+    padding:4px;
+    font-size:0.5em !important;
+    border-radius:5px;
+    color:var(--color-paragrafo);
+}
+
+.lista-projetos{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.box-projeto{
+    background-color: #fff;
+    padding:15px;
+    border-radius:12px;
+    border:1px solid var(--color-main);
+    width:400px;
+    font-weight:bold;
+    transition: 0.5s;
+    cursor:pointer;
+}
+
+.box-projeto:hover{
+    transform: scale(1.1, 1.1)
+}
+
+
+
+.lista-contatos{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.box-contato{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    justify-content:center;
+
+    background-color: #fff;
+    border-radius:12px;
+
+    padding:15px;
+    font-weight:bold;
+    cursor:pointer;
+
+    width:400px;
+}
+
+.box-contato:hover{
+    background: rgba(4, 85, 191, 0.178);
+    transition: 0.5s;
+    
+}
+
+.icon-contato{
+    width:20%;
+}
+
+.box-contato > a{
+    color:var(--color-paragrafo);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+
+footer{
+    background-color: var(--color-main);
+    padding:20px;
+    text-align:center;
+
+    color: #ffff;
+}
+
+/*FAZ PARTE DA FUNCIONALIDADE DOS SCROLL*/
+main > section{
+    visibility: hidden;
+}
+
+/*PERSONALIZAÇÃO SCROOLBAR*/
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #0455BF;   
+    border-radius: 30px;     
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #36465C;    
+    border-radius: 30px;       
+    border: 1px solid #828282;
+  }
+
+  
+
+  
+
+
+
+
+
